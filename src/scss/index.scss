@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 1rem 10rem 0rem;
+}
+
+img {
+    object-fit: contain;
+    max-width:100%;
+    max-height:100%;
+}
+
+.information {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    max-width: 100%;
+    // width:600px;
+    .gmap_canvas {
+        overflow:hidden;background:none!important;height:500px;
+        max-width: 100%;
+        // width:600px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    main {
+        margin: 1rem 4rem 0rem;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+    }
+}
