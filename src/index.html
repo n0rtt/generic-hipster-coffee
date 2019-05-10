@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="/css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Gothic+A1:100" rel="stylesheet">
     <title>Generic Hipster Coffee Homepage</title>
 </head>
+    
 <body>
     
     <Header></Header>
@@ -16,10 +17,17 @@
         <h1>GENERIC HIPSTER COFFEE</h1>
         <h2>SPECIALTY COFFEE, FRESH FOOD & LOCAL COMMUNITY.</h2>
 
-        <img src="../img/counter.jpg" alt="counter">
+        <img src="../img/counter.jpg" alt="counter" />
 
         <!-- middle section for flexbox -->
         <div class="information">
+            <div class="hours">
+                <h3>OPEN HOURS</h3>
+                <P>
+                    sunday - thursday: 8:00 - 23:00<br />
+                    friday - saturday: 8:00 - 1:00
+                </P>
+            </div>
 
             <div class="hours">
                 <h3>OPENING HOURS</h3>
@@ -28,7 +36,7 @@
                     friday - saturday: 8:00 - 1:00
                 </P>
             </div>
-
+            
             <div class="book">
                 <h3>BOOK A TABLE</h3>
                 <P>Call + 1 415-321-4567</P>
@@ -37,17 +45,28 @@
             <div class="address">
                 <h3>ADDRESS</h3>
                 <p>
-                    321 Ivy St.<br>
+                    321 Ivy St.<br />
                     San Francisco, CA 94102
                 </p>
             </div>
         </div>
 
         <!-- map from www.embedgooglemap.net -->
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=321%20ivy%20street%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div>
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe
+                    width="100%"
+                    height="500"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=321%20ivy%20street%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0">
+                </iframe>Google Maps Generator by<a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+            </div>
         </div>
 
     </Main>
-    
 </body>
 </html>
