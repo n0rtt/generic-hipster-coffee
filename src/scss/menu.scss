@@ -1,0 +1,17 @@
+.menu {
+    display: flex;
+
+    h1 {
+        width: 100%;
+    }
+
+    &__drink {
+        width: 40%;
+        &__list {
+            &__items {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
