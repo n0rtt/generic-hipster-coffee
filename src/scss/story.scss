@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 
-body {
+.storymain {
     display: flex;
     flex-direction: column;
     text-align: center;
+    color: red;
 }
