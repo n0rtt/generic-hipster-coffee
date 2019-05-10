@@ -1,12 +1,16 @@
 .menu {
     display: flex;
+    flex-flow: row wrap;
 
     h1 {
         width: 100%;
+        padding-left: 2rem;
     }
 
     &__drink {
         width: 40%;
+        padding: 2rem;
+
         &__list {
             &__items {
                 display: flex;
