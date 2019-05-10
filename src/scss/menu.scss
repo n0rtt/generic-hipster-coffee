@@ -5,6 +5,11 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
+
+        @media screen and (max-width: 500px) {
+            display: block;
+            padding: 1rem;
+        }
     }
 
     h1,
@@ -37,7 +42,17 @@
                     margin-bottom: 1rem;
                 }
             }
+
+            @media screen and (max-width: 500px) {
+                display: block;
+                padding: 1rem;
+            }
         }
+    }
+
+    @media screen and (max-width: 500px) {
+        display: block;
+        padding: 1rem;
     }
 }
 
