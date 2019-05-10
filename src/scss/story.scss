@@ -3,8 +3,17 @@
 }
 
 .storymain {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: red;
+    margin: 1rem 10rem 0rem;
+    p {
+        margin: 2rem 0rem;
+    }
+    img {
+        object-fit: contain;
+        max-width:100%;
+        max-height:100%;
+        margin-bottom: -2.5rem;
+    }
+    @media screen and (max-width: 700px) {
+        margin: 1rem 5rem 0rem;
+    }
 }
