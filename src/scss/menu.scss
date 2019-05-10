@@ -12,10 +12,19 @@
         width: 40%;
         padding: 2rem;
 
+        h2 {
+            margin-bottom: 1rem;
+            padding-left: 0;
+        }
+
         &__list {
             &__items {
                 display: flex;
                 justify-content: space-between;
+
+                span:first-child {
+                    margin-bottom: 1rem;
+                }
             }
         }
     }
