@@ -24,7 +24,7 @@ header {
     }
 
     &__nav {
-        flex: 0 1 40%;
+        flex: 0 1 50%;
         display: flex;
         align-items: center;
 
@@ -45,6 +45,9 @@ header {
                 }
             }
         }
+    }
+    @media screen and (max-width: 1000px) {
+        padding: 1rem;
     }
     @media screen and (max-width: 700px) {
         flex-direction: column;
